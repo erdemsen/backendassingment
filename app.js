@@ -25,7 +25,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-app.post('/', (req, res) => {
+app.post('/getir', (req, res) => {
   //getting request body
   const reqData = req.body;
 
